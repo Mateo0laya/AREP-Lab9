@@ -1,6 +1,6 @@
 # TALLER 9 Tarea de LLM
 
-Usando Lang CHain,  Pinecone y OpenAI, desarrollar los siguientes desafios:
+Usando Lang CHain, Pinecone y OpenAI, desarrollar los siguientes desafios:
 
 1. Usando Python, escribir un programa para enviar prompts a ChatGPT y recibir respuestas. https://python.langchain.com/docs/integrations/llms/openai
 2. Escribir un RAG simple usando una base de datos de vectores en memoria. https://python.langchain.com/docs/use_cases/question_answering/
@@ -21,6 +21,8 @@ Estas instrucciones le permitirán obtener una copia del proyecto en funcionamie
 - Python
 - Cuenta en pinecone
 - Key OpenAI
+
+s
 
 ### Instalación
 
@@ -53,7 +55,7 @@ Configuracíon de keys
 
 1. Enviar prompts a ChatGPT y recibir respuestas:
    En el archivo prompt.py en la linea 22 podrá escribir la pregunta que desea realizar, en este caso para el ejemplo preguntaremos: "What is at the core of Popper's theory of science?". Corremos el programa con el comando:
-   
+
    `python prompt.py`
 
    Y recibimos respuesta en la terminal:
@@ -63,11 +65,11 @@ Configuracíon de keys
 2. Simple RAG:
    Aqui tomaremos información de una pagina web y realizaremos la siguiente pregunta configurada en la linea 48: "What is Task Decomposition?". Corremos el programa con el comando:
 
-  `python simpleRAG.py`
+`python simpleRAG.py`
 
-  y recibimos respuesta en la terminal:
+y recibimos respuesta en la terminal:
 
-  ![image](https://github.com/Mateo0laya/AREP-Lab9/assets/89365336/25661d67-8fae-4a8b-bbf4-f751db04143f)
+![image](https://github.com/Mateo0laya/AREP-Lab9/assets/89365336/25661d67-8fae-4a8b-bbf4-f751db04143f)
 
 3. RAG con pinecone:
    En este caso debemos dirigirnos al archivo Conocimiento.txt, allí escribiremos información sobre un tema que será la base sobre la que nos contestará la AI, en este caso el texto es una noticia de la NASA sobre la Voyager1 estraida de: https://blogs.nasa.gov/voyager/2024/03/15/nasa-engineers-make-progress-toward-understanding-voyager-1-issue/. Una vez este archivo esta listo, la pregunta se realiza en la linea 62, en este caso la pregunta es: "What happened with the Voyager1". Corremos el comando:
@@ -78,12 +80,11 @@ Configuracíon de keys
 
    ![image](https://github.com/Mateo0laya/AREP-Lab9/assets/89365336/9cd366a2-4aff-4616-86c4-f6ebd80250cf)
 
-
 ## Construido con
 
-* [Python](https://www.python.org/) - The main programming language
-* [OpenAI](https://chat.openai.com/) - Chat AI
-* [Pinecone](https://www.pinecone.io/) - Vector Database
+- [Python](https://www.python.org/) - The main programming language
+- [OpenAI](https://chat.openai.com/) - Chat AI
+- [Pinecone](https://www.pinecone.io/) - Vector Database
 
 ## Version
 
